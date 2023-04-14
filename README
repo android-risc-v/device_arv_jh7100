@@ -2,7 +2,7 @@
   https://source.android.com/setup/build/initializing
 
 # Download Android source
-  https://github.com/android-risc-v/local_manifests
+  https://github.com/android-risc-v/local_manifests/tree/arv-12
 
 # Build Android
  Refer to http://source.android.com/source/building.html
@@ -34,7 +34,7 @@
   $ sudo apt install gcc-riscv64-linux-gnu
 
  Git clone following kernel source under separate folder apart from Android
-  https://github.com/android-risc-v/kernel_arv
+  https://github.com/android-risc-v/kernel_arv/tree/arv-6.2_jh7100
 
  Build the kernel
   $ ARCH=riscv scripts/kconfig/merge_config.sh arch/riscv/configs/visionfive_defconfig kernel/configs/android-base.config kernel/configs/android-recommended.config
